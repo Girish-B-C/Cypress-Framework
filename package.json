@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "regression": "npx cypress run --spec 'cypress/e2e/examples/*.cy.js'",
+    "chrome": "npx cypress run --browser chrome --spec 'cypress/e2e/examples/*.cy.js'"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.3"
+    "cypress": "^14.5.3",
+    "@cypress/browserify-preprocessor": "^2.0.0",
+    "@badeball/cypress-cucumber-preprocessor": "22.2.0"
   }
 }
