@@ -38,7 +38,7 @@ module.exports = defineConfig({
  
   e2e: {
   setupNodeEvents,
-    specPattern: 'cypress/integration/examples/*.js'
+    specPattern: 'cypress/e2e/**/*.cy.js'
  
   },
 });
