@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.3"
+    "cypress": "^14.5.3",
+    "neat-csv": "5.1.0"
   }
 }
